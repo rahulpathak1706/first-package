@@ -1,0 +1,17 @@
+{
+    "name": "abc/plus",
+    "autoload": {
+        "psr-4": {
+            "abc\\plus\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Rahul Pathak",
+            "email": "shovik.is.here@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.0.1"
+    }
+}

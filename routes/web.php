@@ -16,3 +16,8 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+
+Route::get('plus', function(abc\plus\PlusClass $plus) {
+    return $plus->justDoIt();
+});
